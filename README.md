@@ -45,4 +45,50 @@ const FriendList = (function() {
  This means this property is PRIVATE! */
  console.log(FriendList.FemaleFriends);
  // Result: Undefined 
+ ```
+
+```JS
+ // Console.log(FriendList);
+ // Result 
+ {friends: Array(1), femaleFriendsList: ƒ}
+  femaleFriendsList : ƒ ( age, city )
+    arguments : null
+    caller : null
+    length : 2
+    name : "femaleFriendsList"
+ prototype : 
+   constructor : ƒ ( age, city )
+ [[Prototype]] : 
+
+ Object 
+ [[FunctionLocation]] : 
+ [[Prototype]] :  ƒ ()
+ [[Scopes]] :  Scopes[3]
+ friends : Array(1)
+   0 :
+   age: 18 
+   city : "Saint Bernard"
+ [[Prototype]] : 
+  Object
+  constructor : ƒ Object()
+  hasOwnProperty : ƒ hasOwnProperty()
+  isPrototypeOf : ƒ isPrototypeOf()
+  propertyIsEnumerable : ƒ propertyIsEnumerable()
+  toLocaleString : ƒ toLocaleString()
+  toString : ƒ toString()
+  valueOf : ƒ valueOf()
+__defineGetter__ :  ƒ __defineGetter__()
+__defineSetter__ : ƒ __defineSetter__()
+__lookupGetter__ : ƒ __lookupGetter__()
+__lookupSetter__ : ƒ __lookupSetter__()
+__proto__ : 
+(...)
+get __proto__ :  ƒ __proto__()
+set __proto__ :  ƒ __proto__()
+ length : 1
+[[Prototype]] : 
+Array(0)
+[[Prototype]] : 
+Object
 ```
+
